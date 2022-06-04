@@ -15,6 +15,10 @@ let order = (Fruit_name, call_production) => {
 };
 
 // once we get the order we can start producing ice-cream
-let production = () => {};
+let production = () => {
+    setTimeout(() => {
+        console.log('production has started');
+    }, 0000);
+};
 
 order(0, production);
